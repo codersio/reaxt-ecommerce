@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fill {
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.15) 0,
+    rgba(255, 255, 255, 0.15) 25%,
+    rgba(255, 255, 255, 0) 25%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  animation: movie 5s linear infinite;
+  background-size: 19px;
+  -webkit-animation: movie 3s linear infinite;
+}
+@keyframes movie {
+  100% {
+    background-position: -90px 0;
+  }
+}
+.as {
+  background-color: #30b94d;
+  width: 65%;
+  height: 100%;
+}

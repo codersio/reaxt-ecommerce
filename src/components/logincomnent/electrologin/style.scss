@@ -1,0 +1,8 @@
+.electro-login {
+  height: 3px;
+}
+.electro-login::before {
+  content: "";
+  border-width: 100px;
+  border: 50px solid #fed700;
+}

@@ -1,0 +1,26 @@
+// .cartmodal-hr {
+//   border: none;
+//   height: 7px;
+//   border-radius: 20%;
+//   /*Setthehrcolor*/
+//   color: #333;
+//   /*oldIE*/
+//   background-color: #333;
+//   -webkit-border-radius: 20%;
+//   -moz-border-radius: 20%;
+//   -ms-border-radius: 20%;
+//   -o-border-radius: 20%;
+// }
+
+.cartmodal-hr::before {
+  background-color: #ffbc11;
+  content: "";
+  height: 7px;
+  width: 50px;
+  position: absolute;
+  border-radius: 20%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+}

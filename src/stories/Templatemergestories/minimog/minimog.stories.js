@@ -1,0 +1,190 @@
+import MinimogTemplate from "../../../components/Tmplatefilemerge/Minimog";
+
+export default {
+  title: "Templateengine/MinimogTemplate",
+  component: MinimogTemplate,
+};
+
+const Template = (args) => <MinimogTemplate {...args} />;
+export const MinimogTemplateengine = Template.bind({});
+MinimogTemplateengine.args = {
+  minimog: {
+    mainmenu: [
+      {
+        name: "Home",
+        submenu: [
+          {
+            title: "home1",
+          },
+          {
+            title: "home2",
+          },
+        ],
+      },
+      {
+        name: "About",
+        // submenu: [
+        //   {
+        //     title: "home1",
+        //   },
+        //   {
+        //     title: "home2",
+        //   },
+        // ],
+      },
+      {
+        name: "Product",
+        // submenu: [
+        //   {
+        //     title: "home1",
+        //   },
+        //   {
+        //     title: "home2",
+        //   },
+        // ],
+      },
+      {
+        name: "Blog",
+        // submenu: [
+        //   {
+        //     title: "home1",
+        //   },
+        //   {
+        //     title: "home2",
+        //   },
+        // ],
+      },
+      {
+        name: "Pages",
+        // submenu: [
+        //   {
+        //     title: "home1",
+        //   },
+        //   {
+        //     title: "home2",
+        //   },
+        // ],
+      },
+    ],
+    slider: [
+      {
+        id: 1,
+        image:
+          "https://minimog.thememove.com/wp-content/uploads/2021/12/h3_slide_02.jpg",
+      },
+      {
+        id: 2,
+        image:
+          "https://minimog.thememove.com/wp-content/uploads/2021/12/h3_slide_01.jpg",
+      },
+    ],
+
+    category: [
+      {
+        id: 1,
+        image:
+          "https://minimog-4437.kxcdn.com/wp-content/uploads/2022/01/cat-fashion-09-180x180.jpeg",
+        title: "Sneakers",
+        item: "11",
+      },
+      {
+        id: 2,
+        image:
+          "https://minimog-4437.kxcdn.com/wp-content/uploads/2022/01/cat-fashion-07-180x180.jpeg",
+        title: "Shoes",
+        item: "1",
+      },
+      {
+        id: 3,
+        image:
+          "https://minimog-4437.kxcdn.com/wp-content/uploads/2022/01/cat-fashion-08-180x180.jpeg",
+        title: "Sandals",
+        item: "44",
+      },
+      {
+        id: 4,
+        image:
+          "https://minimog-4437.kxcdn.com/wp-content/uploads/2022/01/cat-fashion-08-180x180.jpeg",
+        title: "Leather Bag",
+        item: "44",
+      },
+      {
+        id: 5,
+        image:
+          "https://minimog-4437.kxcdn.com/wp-content/uploads/2022/01/cat-fashion-05-180x180.jpeg",
+        title: "Leather Bag",
+        item: "4",
+      },
+      {
+        id: 6,
+        image:
+          "https://minimog-4437.kxcdn.com/wp-content/uploads/2022/01/cat-fashion-05-180x180.jpeg",
+        title: "Leather Bag",
+        item: "4",
+      },
+      {
+        id: 6,
+        image:
+          "https://minimog-4437.kxcdn.com/wp-content/uploads/2022/01/cat-fashion-05-180x180.jpeg",
+        title: "Leather Bag",
+        item: "4",
+      },
+    ],
+    categorysection: [
+      {
+        title: "Season Collection",
+        description: "Must-have pieces selected every month",
+      },
+    ],
+    productsection: "This week’s highlights",
+
+    product: [
+      {
+        id: 1,
+        title: "Wool-blend Jacket",
+        storePrice: "$87.00",
+        Mrp: "$98.00",
+        colorid: 1,
+        image:
+          "https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_13_b_2-450x600.jpg",
+        color: [
+          {
+            id: 1,
+            title: "#000",
+            image:
+              "https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_a_6-450x600.jpg",
+          },
+          {
+            id: 2,
+            title: "#94ad7e",
+            image:
+              "https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_13_d_1-570x760.jpg",
+          },
+        ],
+      },
+      {
+        id: 2,
+        title: "Stripe Cotton Shirt",
+        storePrice: "$87.00",
+        // Mrp: "$98.00",
+        colorid: null,
+        image:
+          "https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_07_2-450x600.jpg",
+        // color: [
+        //   {
+        //     id: 1,
+        //     title: "#000",
+        //     image:
+        //       "https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_a_6-450x600.jpg",
+        //   },
+        //   {
+        //     id: 2,
+        //     title: "#94ad7e",
+        //     image:
+        //       "https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_13_d_1-570x760.jpg",
+        //   },
+        // ],
+      },
+    ],
+  },
+};

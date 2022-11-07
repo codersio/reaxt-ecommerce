@@ -1,0 +1,76 @@
+.curve{
+    width: 190px;
+        padding: 36px 15px 0;
+        background: #ffca3c;
+        height: 7rem;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+.left_div{
+    content: ' ';
+        position: absolute;
+        background: 0 0;
+        border: 4px solid;
+        border-color: transparent #333 #333 transparent;
+        display: block;
+        width: 8px;
+        height: 8px;
+        left: -8px;
+        top: 0;
+}
+.right_div{
+content: " ";
+    position: absolute;
+    background: 0 0;
+    border: 4px solid;
+    border-color: transparent #222222 #222222 transparent;
+    display: block;
+    width: 8px;
+    height: 8px;
+    right: -8px;
+    top: 0;
+    transform: rotate(83deg);
+    // border-color: transparent #ffca3c #ffca3c transparent;
+}
+.bottom_curve{
+    border-left: 95px solid transparent;
+        border-right: 95px solid transparent;
+        border-top: 38px solid #ffca3c;
+        width: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -38px;
+}
+.nav-lafaka::before{
+z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 20px;
+    left: 20px;
+    width: 50%;
+    top: 40px;
+    max-width: 400px;
+    background: 0 0;
+    -webkit-box-shadow: 0 15px 13px #333333;
+    -moz-box-shadow: 0 15px 13px #333333;
+    box-shadow: 0 15px 13px #333333;
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+}
+.nav-lafaka::after{
+        z-index: -1;
+            position: absolute;
+            content: "";
+            bottom: 22px;
+            width: 50%;
+            right: 1rem;
+            top: 36px;
+            max-width: 400px;
+            background: 0 0;
+            box-shadow: 0 15px 13px #333333;
+            -webkit-transform: rotate(-2deg);
+            transform: rotate(3deg);
+}

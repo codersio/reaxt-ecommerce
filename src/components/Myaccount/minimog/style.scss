@@ -1,0 +1,16 @@
+.brdhr {
+  position: relative;
+  height: 3px;
+}
+
+.brdhr::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+}

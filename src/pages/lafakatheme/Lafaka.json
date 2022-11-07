@@ -1,0 +1,211 @@
+{
+  "mainmenu": [
+    {
+      "name": "Home",
+      "submenu": [
+        {
+          "title": "home1"
+        },
+        {
+          "title": "home2"
+        }
+      ]
+    },
+    {
+      "name": "About"
+    },
+    {
+      "name": "Product"
+    },
+    {
+      "name": "Blog"
+    },
+    {
+      "name": "Pages"
+    }
+  ],
+  "slider": [
+    {
+      "id": 1,
+      "image": "https://minimog.thememove.com/wp-content/uploads/2021/12/h3_slide_02.jpg"
+    },
+    {
+      "id": 2,
+      "image": "https://minimog.thememove.com/wp-content/uploads/2021/12/h3_slide_01.jpg"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "image": "https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/06/cat-burger1-440x440.jpg",
+      "title": "Burgers",
+      "item": "11"
+    },
+    {
+      "id": 2,
+      "image": "https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/06/cat-pizza1-440x440.jpg",
+      "title": "pizza",
+      "item": "1"
+    },
+    {
+      "id": 3,
+      "image": "https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/06/cat-sandwiches1-440x440.jpg",
+      "title": "sandwiches",
+      "item": "44"
+    },
+    {
+      "id": 4,
+      "image": "https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/06/cat-sides1-440x440.jpg",
+      "title": "sides",
+      "item": "44"
+    },
+    {
+      "id": 5,
+      "image": "https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/06/cat-dessert1-440x440.jpg",
+      "title": "desserts",
+      "item": "4"
+    },
+    {
+      "id": 6,
+      "image": "https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/06/cat-drinks1-440x440.jpg",
+      "title": "drinks",
+      "item": "4"
+    },
+    {
+      "id": "6",
+      "image": "https://minimog-4437.kxcdn.com/wp-content/uploads/2022/01/cat-fashion-05-180x180.jpeg",
+      "title": "Leather Bag",
+      "item": "4"
+    }
+  ],
+  "categorysection": [
+    {
+      "title": "Season Collection",
+      "description": "Must-have pieces selected every month"
+    }
+  ],
+  "productsection": "This week’s highlights",
+  "product": [
+    {
+      "id": 1,
+      "title": "Bacon Cheeseburger",
+      "slug":"bacon-cheeseburger",
+      "description":"Smoked brisket, tender ribs, smoked sausage, bacon & cheddar with lettuce, tomato, house BBQ & ranch.",
+      "priceSign":"$",
+ "storePriceT": "87",
+      "storePriceP": "99",
+      "productSingle":false,
+      "Mrp": "$98.00",
+      "showasProduct":true,
+      "colorid": 1,
+      "image": "https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/05/burger17-440x440.jpg",
+      "color": [
+        {
+          "id": 1,
+          "title": "#000",
+          "image": "https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_a_6-450x600.jpg"
+        },
+        {
+          "id": 2,
+          "title": "#94ad7e",
+          "image": "https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_13_d_1-570x760.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Jalapeno Angus Burger",
+      "showasProduct":true,
+      "priceSign":"$",
+      "productSingle":false,
+      "description":"Smoked brisket, tender ribs, smoked sausage, bacon & cheddar with lettuce, tomato, house BBQ & ranch.",
+      "storePriceT": "87",
+      "storePriceP": "99",
+      "colorid": null,
+      "image": "https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/05/burger13-440x440.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Big Brekkie BBQ Burger",
+
+      "showasProduct":true,
+      "priceSign":"$",
+      "storePriceT": "87",
+      "productSingle":false,
+      "storePriceP": "99",
+      "description":"Smoked brisket, tender ribs, smoked sausage, bacon & cheddar with lettuce, tomato, house BBQ & ranch.",
+      "colorid": null,
+      "image": "https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/05/burger18-440x440.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Tinted Sunglasses",
+    
+      "priceSign":"$",
+      "productSingle":false,
+ "storePriceT": "87",
+      "storePriceP": "99",
+      "description":"Smoked brisket, tender ribs, smoked sausage, bacon & cheddar with lettuce, tomato, house BBQ & ranch.",
+      "colorid": null,
+      "image": "https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/05/burger14-440x440.jpg"
+    }
+
+ 
+    
+  ],
+
+  "productsingleimage": [
+    {
+      "id": 1,
+      "image":
+      "https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_a_4-570x760.jpg"
+    },
+    {
+      "id": 2,
+      "image":
+      "https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_a_6-570x760.jpg"
+    },
+    {
+      "id": 3,
+      "image":
+      "https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_04_3-570x760.jpg"
+    },
+    {
+      "id": 4,
+      "image":
+      "https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_04_2-570x760.jpg"
+    }
+  ],
+
+  "tabsdes": [
+    {
+      "id": 1,
+      "name": "Shipping and Returns",
+      "deta": {
+        "id": 1,
+        "title": null,
+        "description":
+        "Shipping cost is based on weight. Just add products to your cart and use the Shipping Calculator to see the shipping price. We want you to be 100% satisfied with your purchase. Items can be returned or exchanged within 30 days of delivery."
+      }
+    },
+    {
+      "id": 2,
+      "name": "Product details",
+      "deta": {
+        "id": 2,
+        "title": "The Iconic Silhouette",
+        "description":
+        "He garments labelled as Committed are products that have been produced using sustainable fibers or processes, reducing their environmental impact. Mango’s goal is to support the implementation of practices more committed to the environment, and therefore increase the number of sustainable garments in the collection."
+      }
+    },
+    {
+      "id": 3,
+      "name": "Review",
+      "deta": {
+        "id": 3,
+        "title": null,
+        "description": null
+      }
+    }
+  ]
+}

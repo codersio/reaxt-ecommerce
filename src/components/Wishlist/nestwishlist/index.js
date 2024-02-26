@@ -25,9 +25,17 @@ export default function Nestwishlist() {
   return (
     <div className=" flex w-[100vw] md:flex-row flex-col md:space-x-4 font-Quicksand md:p-2 p-5 md:space-y-0 space-y-14">
       <div className="row  md:w-[100%] border      ">
+
         <table class=" md:inline-table hidden border-collapse table-auto w-full text-sm">
           <thead className="bg-[#ececec] rounded-3xl p-2">
             <tr>
+
+              <div className="description">
+                <h1>heel</h1>
+
+              </div>
+
+
               <th class="border-b text-[16px] font-[700] dark:border-slate-600  p-4  pt-5  text-[#253d4e] dark:text-slate-200 text-left">
                 <input type="checkbox" name="" id="" />
               </th>

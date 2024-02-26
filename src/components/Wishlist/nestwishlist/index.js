@@ -40,7 +40,7 @@ export default function Nestwishlist() {
                 <input type="checkbox" name="" id="" />
               </th>
               <th class="border-b text-[16px] font-[700] dark:border-slate-600  p-4  pt-5  text-[#253d4e] dark:text-slate-200 text-left">
-                Product
+                Products
               </th>
 
               <th class="border-b text-[16px] font-[700] dark:border-slate-600  p-4  pt-5  text-[#253d4e] dark:text-slate-200 text-left">
